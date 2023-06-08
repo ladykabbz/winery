@@ -1,38 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unna&display=swap");
+
 .App {
   text-align: center;
+  font-family: "Unna", serif;
+}
+.navbar {
+  width: 100%;
+  padding: 20px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  font-family: "Cabin Sketch", cursive;
+  font-size: 30px;
+  color: yellow;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.intro {
+  background-image: url(/alternative.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10%;
   flex-direction: column;
+
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 85vh; /* Set the height of the container to fill the viewport */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.one {
+  font-family: "Cabin Sketch", cursive;
+  text-align: center;
+  color: black;
+  font-size: 46px;
+  padding: 10px;
 }

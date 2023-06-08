@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -28,7 +29,9 @@ export default function App() {
 
       <div className="intro">
         <div className="container">
-          <h2 className="one">ROCKS PLAYHOUSE</h2>
+          <h2 className="one">
+            BRINGING PEOPLE TOGETHER THROUGH SPONTANEOUS CONVERSATIONS
+          </h2>
         </div>
       </div>
     </div>
