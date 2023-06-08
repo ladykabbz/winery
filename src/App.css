@@ -4,6 +4,7 @@
 .App {
   text-align: center;
   font-family: "Unna", serif;
+  background: black;
 }
 .navbar {
   width: 100%;
@@ -36,4 +37,16 @@
   color: black;
   font-size: 46px;
   padding: 10px;
+}
+.about {
+  font-family: "Cabin Sketch", cursive;
+  color: rgb(231, 231, 1);
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+  text-decoration: underline 2px yellow;
+}
+.niambie {
+  display: flex;
+  justify-content: flex-start;
 }

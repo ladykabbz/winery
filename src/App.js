@@ -34,6 +34,21 @@ export default function App() {
           </h2>
         </div>
       </div>
+
+      <div className="container">
+        <div className="row">
+          <div className="col-md-3">
+            <div className="aboutrocks">
+              <h2 className="about">ALL ABOUT ROCKS PLAYHOUSE</h2>
+
+              <h3 className="niambie">
+                hdubcnjicnjenvevhufnwjnfjekc lkSMZGWEBNYRWHVBYF
+                GUXWENCFRMNHIJBNRXWBDNHSJFKBRYHWIECJKDNJEXRIMWCKERSJ
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
