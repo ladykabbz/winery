@@ -6,6 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 import Container from "react-bootstrap/Container";
+import RotateExample from "./animes";
 
 export default function App() {
   return (
@@ -29,23 +30,21 @@ export default function App() {
 
       <div className="intro">
         <div className="container">
-          <h2 className="one">
-            BRINGING PEOPLE TOGETHER THROUGH SPONTANEOUS CONVERSATIONS
-          </h2>
+          <RotateExample />
         </div>
       </div>
 
       <div className="container">
         <div className="row">
-          <div className="col-md-3">
-            <div className="aboutrocks">
-              <h2 className="about">ALL ABOUT ROCKS PLAYHOUSE</h2>
-
-              <h3 className="niambie">
-                hdubcnjicnjenvevhufnwjnfjekc lkSMZGWEBNYRWHVBYF
-                GUXWENCFRMNHIJBNRXWBDNHSJFKBRYHWIECJKDNJEXRIMWCKERSJ
-              </h3>
-            </div>
+          <div className="col-lg-8">
+            <h3 className="about">ALL ABOUT ROCKS PLAYHOUSE</h3>
+            <p className="talkrocks">
+              lorem ipsum bla bla bla bla bla bla bla bla njsdc njs lorem ipsum
+              lorem ipsum bla bla bla bla bla bla bla bla njsdc njs bla bla bla
+              lorem ipsum bla bla bla bla bla bla bla bla njsdc njs bla bla bla
+              bla bla njsdc njs lorem ipsum bla bla bla bla bla bla bla bla
+              njsdc njs
+            </p>
           </div>
         </div>
       </div>

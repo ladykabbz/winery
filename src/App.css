@@ -41,12 +41,10 @@
 .about {
   font-family: "Cabin Sketch", cursive;
   color: rgb(231, 231, 1);
-  display: flex;
-  justify-content: flex-start;
-  padding: 30px;
+  padding-top: 140px;
   text-decoration: underline 2px yellow;
 }
-.niambie {
-  display: flex;
-  justify-content: flex-start;
+.talkrocks {
+  color: grey;
+  font-size: 20px;
 }
