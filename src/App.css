@@ -19,7 +19,7 @@
 
 .intro {
   background-image: url(/alternative.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
