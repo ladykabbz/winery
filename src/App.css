@@ -146,18 +146,24 @@ ul {
   text-align: center;
   margin-left: 40px;
   padding-top: 20px;
+  margin-right: 40px;
 }
 .finalword {
   font-family: "Cabin Sketch", cursive;
   text-align: center;
   margin-left: 40px;
+  margin-right: 40px;
 }
 .finalink {
   color: black;
   text-decoration: none;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .finalist {
   padding: 8px;
+
+  margin-right: 40px;
 }
 .finalink:hover {
   color: rgb(151, 151, 25);
