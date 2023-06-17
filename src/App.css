@@ -198,10 +198,12 @@ ul {
   text-decoration: underline;
 }
 .btnsubmit {
-  background: yellow;
+  color: white;
+  background: rgb(44, 41, 41);
   padding: 8px;
   width: 200px;
   border-radius: 12px;
+  border: 2px solid yellow;
 }
 .btnsubmit:hover {
   background: rgb(151, 151, 25);
