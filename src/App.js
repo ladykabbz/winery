@@ -212,6 +212,7 @@ export default function App() {
                     class="finalink"
                     href="mailto:kabiinicole@gmail.com"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Email
                   </a>
@@ -221,6 +222,7 @@ export default function App() {
                     class="finalink"
                     href="https://instagram.com/nicole_kabii?igshid=YmMyMTA2M2Y="
                     target="_blank"
+                    rel="noreferrer"
                   >
                     instagram
                   </a>
@@ -230,6 +232,7 @@ export default function App() {
                     class="finalink"
                     href="https://twitter.com/simply_nicoole"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     twitter
                   </a>
