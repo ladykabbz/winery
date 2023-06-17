@@ -176,7 +176,7 @@ export default function App() {
       <div className="finalpart" id="contact">
         <div className="container">
           <div className="row">
-            <div class="col-lg-4">
+            <div class="col-sm-4">
               <ul>
                 <li class="finalist">
                   <a class="finalink" href="#home">
@@ -196,7 +196,7 @@ export default function App() {
               </ul>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-sm-4">
               <h3 class="finalname">ROCKS PLAYHOUSE</h3>
 
               <p className="finalword">
@@ -205,7 +205,7 @@ export default function App() {
               <br />
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-sm-4">
               <ul>
                 <li class="finalist">
                   <a
