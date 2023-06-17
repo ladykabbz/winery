@@ -22,6 +22,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   padding: 10%;
   flex-direction: column;
 
@@ -40,11 +41,171 @@
 }
 .about {
   font-family: "Cabin Sketch", cursive;
-  color: rgb(231, 231, 1);
-  padding-top: 140px;
-  text-decoration: underline 2px yellow;
+  color: rgb(151, 151, 25);
+  padding: 24px;
 }
-.talkrocks {
-  color: grey;
-  font-size: 20px;
+.subheading {
+  color: rgb(231, 231, 1);
+  font-family: "Cabin Sketch", cursive;
+  font-size: 32px;
+}
+.info {
+  color: rgb(151, 151, 25);
+  font-size: 18px;
+  padding: 32px;
+}
+
+.image2 {
+  padding: 12px;
+  transition: transform 0.3s ease;
+  transform: rotate(5deg);
+}
+.image3 {
+  padding-top: 32px;
+  padding-right: 30px;
+  transition: transform 0.3s ease;
+  transform: rotate(-5deg);
+}
+.image1 {
+  transition: transform 0.3s ease;
+  transform: rotate(-5deg);
+}
+
+.image1:hover {
+  transform: scale(1.1);
+}
+.image2:hover {
+  transform: scale(1.1);
+}
+.image3:hover {
+  transform: scale(1.1);
+}
+.btnintro {
+  padding: 12px;
+  border: 1px rgb(231, 231, 1) solid;
+  border-radius: 12px;
+  background: black;
+  color: rgb(231, 231, 1);
+}
+.part1 {
+  padding: 32px;
+}
+.part2 {
+  background: rgb(255, 250, 98);
+}
+.image7 {
+  transition: transform 0.3s ease;
+  transform: rotate(5deg);
+}
+.image9 {
+  transition: transform 0.3s ease;
+  transform: rotate(-5deg);
+}
+.image7:hover {
+  transform: scale(1.1);
+}
+.image9:hover {
+  transform: scale(1.1);
+}
+.heading2 {
+  font-family: "Cabin Sketch", cursive;
+  font-size: 36px;
+  padding-top: 24px;
+  color: black;
+  text-decoration: underline;
+}
+.info1 {
+  color: black;
+  font-size: 18px;
+  padding: 26px;
+}
+.heading3 {
+  font-family: "Cabin Sketch", cursive;
+  font-size: 36px;
+  padding: 24px;
+  color: rgb(231, 231, 1);
+  text-decoration: underline;
+}
+.info3 {
+  color: rgb(151, 151, 25);
+  font-size: 18px;
+  padding: 32px;
+}
+.finalpart {
+  background: rgb(255, 250, 98);
+  padding: 36px;
+}
+ul {
+  list-style: none;
+  font-family: "Cabin Sketch", cursive;
+}
+.finalname {
+  font-family: "Cabin Sketch", cursive;
+  text-decoration: underline;
+  text-align: center;
+}
+.finalword {
+  font-family: "Cabin Sketch", cursive;
+  text-align: center;
+}
+.finalink {
+  color: black;
+  text-decoration: none;
+}
+.finalist {
+  padding: 8px;
+}
+.finalink:hover {
+  color: rgb(151, 151, 25);
+}
+
+.form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.form-container {
+  background: #fff;
+  padding: 32px;
+  width: 400px;
+  background-color: rgb(255, 250, 98);
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.form-container input {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 24px;
+}
+
+.form-container p {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-decoration: underline;
+}
+.btnsubmit {
+  background: yellow;
+  padding: 8px;
+  width: 200px;
+  border-radius: 12px;
+}
+.btnsubmit:hover {
+  background: rgb(151, 151, 25);
+}
+.orderheading {
+  font-family: "Cabin Sketch", cursive;
+  color: black;
+  text-decoration: underline;
+  padding-bottom: 20px;
 }
