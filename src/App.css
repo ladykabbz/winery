@@ -58,13 +58,12 @@
 .image2 {
   padding: 12px;
   transition: transform 0.3s ease;
-  transform: rotate(5deg);
+  transform: rotate(9deg);
 }
 .image3 {
-  padding-top: 32px;
   padding-right: 30px;
   transition: transform 0.3s ease;
-  transform: rotate(-5deg);
+  transform: rotate(-6deg);
 }
 .image1 {
   transition: transform 0.3s ease;
