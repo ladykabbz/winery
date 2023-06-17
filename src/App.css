@@ -134,6 +134,7 @@
 .finalpart {
   background: rgb(255, 250, 98);
   padding: 36px;
+  text-align: center;
 }
 ul {
   list-style: none;
