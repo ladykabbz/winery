@@ -137,7 +137,7 @@ export default function App() {
                 you to create the most mind-blowing content ever. These cards
                 are packed with questions and topics that will blow your mind,
                 spark your imagination, and make you see the world in a whole
-                new light.
+                new light!
               </p>
               <hr />
               <p className="info1">
