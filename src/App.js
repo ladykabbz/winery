@@ -63,7 +63,7 @@ export default function App() {
               <br />
               <br />
             </div>
-            <div className="col-lg-3">
+            <div className="col-md-3">
               <br />
               <img
                 src={rocks1}
@@ -82,13 +82,13 @@ export default function App() {
               />
             </div>
 
-            <div className="col-sm-3">
+            <div className="col-md-3">
               <br />
               <img
                 src={rocks4}
                 alt="nails"
-                width={275}
-                height={325}
+                width={300}
+                height={300}
                 className="image3"
               />
             </div>
@@ -105,7 +105,7 @@ export default function App() {
             WHY ROCKS PLAYHOUSE?
           </h2>
           <div className="row">
-            <div className="col-sm-3">
+            <div className="col-lg-3">
               <br />
               <br />
 
@@ -117,7 +117,7 @@ export default function App() {
                 className="image7"
               />
             </div>
-            <div className="col-sm-3">
+            <div className="col-lg-3">
               <br />
               <br />
 
@@ -130,7 +130,7 @@ export default function App() {
               />
             </div>
 
-            <div className="col-sm-6">
+            <div className="col-lg-6">
               <p className="info1">
                 We've gone the extra mile to make these cards totally epic as
                 We've done tons of research and talked to awesome people like
