@@ -11,12 +11,11 @@ function OrderForm() {
   const handleFormSubmit = (event) => {
     event.preventDefault();
 
-    // Display the thank you message
+   
     alert(
       "Thank you for your order!An Email has been sent for payment details!."
     );
-
-    // Reset form fields and hide the form
+    // form fields
     setName("");
     setEmail("");
     setNumberOfCards(1);
@@ -71,10 +70,11 @@ function OrderForm() {
                 required
               />
 
-              <p>Total Amount: {totalAmount} Ksh</p>
+              <p>Total Amount: {totalAmount} ksh</p>
 
               <button className="btnsubmit" type="submit">
                 ORDER
+                
               </button>
             </form>
           </div>
